@@ -1,21 +1,27 @@
-# Week 1 — Cloud and SQL Foundations
+# FinTrust Cloud Portfolio
 
-## What I Learned This Week
+**Learner:** Sandeep Hari
+**Programme:** Cloud to Solutions Accelerator (16 Weeks)
+**Target Certification:** AWS Certified Solutions Architect – Associate (SAA-C03)
+**Cohort Start:** 6 July 2026
 
-### Cloud / AWS (AM Sessions)
-- AWS Regions and Availability Zones — physical infrastructure
-- VPC fundamentals: public/private subnets, IGW, NAT Gateway
-- Security Groups (stateful) vs NACLs (stateless)
-- FinTrust VPC architecture: three-tier design in af-south-1
+## About This Repository
 
-### SQL (PM Sessions)
-- Database design: tables, columns, rows, data types
-- FinTrust schema: customers, accounts, transactions tables
-- CREATE TABLE, INSERT INTO, SELECT
-- WHERE clause: =, !=, >, <, LIKE, IN, BETWEEN, IS NULL
+This repository documents my learning journey throughout the 16-week Cloud to Solutions Accelerator programme using the **FinTrust** banking case study.
 
-## Files
-| File | Description |
-|------|-------------|
-| sql/day3_fintrust_schema.sql | Core FinTrust database schema |
-| sql/day4_where_queries.sql | WHERE clause business queries |
+Each weekly folder contains practical work completed during the programme, including AWS architecture and cloud exercises, Python applications, SQL scripts, technical documentation, and weekly reflections. Together, these demonstrate the progressive development of cloud computing and software engineering skills through hands-on implementation.
+
+## Progress
+
+| Week   | Theme                               | Status      |
+| ------ | ----------------------------------- | ----------- |
+| Week 1 | Cloud & SQL Foundations             | ✅ Completed |
+| Week 2 | Python Banking Logic & SQL Analysis | ✅ Completed |
+| Week 3 | AWS Storage & Python Development    | ✅ Completed |
+
+Each completed week includes:
+
+* A technical weekly report (`README.md`)
+* A weekly reflection
+* Practical exercises and source code
+* Supporting documentation and project artefacts

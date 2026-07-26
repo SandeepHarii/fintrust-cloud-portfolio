@@ -1,197 +1,58 @@
-# FinTrust Cloud Portfolio
-## Week 2 Summary
-
-This week focused on building Python programs that model common banking business logic and writing SQL queries to retrieve, analyze, and summarize banking data from a relational database.
-
----
-
-# Python
+# Week 2 — Python Banking Logic & SQL Analysis
 
 ## Overview
 
-Built a collection of small banking applications that demonstrate decision-making using `if`, `elif`, and `else` statements.
-
-### Exercises Completed
-
-### Transaction Classifier
-- Classified transactions into:
-  - MICRO
-  - SMALL
-  - STANDARD
-  - LARGE
-  - INVALID
-
-**Concepts**
-- Conditional logic
-- Functions
-- Return values
+Week 2 focused on developing Python applications that simulate banking business logic and writing SQL queries to analyse relational banking data. Morning (AM) sessions continued building AWS cloud knowledge through theory and practical discussions, while afternoon (PM) sessions concentrated on Python programming and advanced SQL querying using the FinTrust banking case study.
 
 ---
 
-### Interest Rate Calculator
-Calculated loan interest rates based on customer credit scores.
+## What I Learned This Week
 
-**Concepts**
-- Range comparisons
-- Multiple conditions
-- Business rules
+### AWS (AM Sessions)
 
----
+* Continued developing cloud computing knowledge through AWS theory and architecture discussions.
+* Expanded understanding of AWS services and their role within the FinTrust banking environment.
+* Reinforced cloud architecture concepts through guided learning and practical exercises.
 
-### ATM Withdrawal Logic
-Simulated ATM withdrawals by validating:
-- Invalid amounts
-- Daily ATM withdrawal limit
-- Insufficient funds
-- Successful withdrawals
+### Python (PM Sessions)
 
-**Concepts**
-- Input validation
-- Financial business logic
-- Boolean return values
-- Formatted output
+* Built reusable Python programs using functions and conditional statements.
+* Applied business rules to simulate real-world banking scenarios.
+* Developed applications that classify, validate, and process banking transactions.
+* Implemented nested conditional logic and decision-making algorithms.
+* Used dictionaries and Boolean logic to create flexible application behaviour.
 
----
+Python applications included:
 
-### Transaction Tagger
-Automatically tagged transactions based on:
-- Refunds
-- Gambling merchants
-- Grocery purchases
-- Large purchases
-- Standard transactions
+* Transaction Classifier
+* Interest Rate Calculator
+* ATM Withdrawal Logic
+* Transaction Tagger
+* Transaction Decision Engine
 
-**Concepts**
-- Multiple conditional branches
-- Rule prioritisation
-- Transaction categorisation
+### SQL (PM Sessions)
+
+* Retrieved related banking data using `INNER JOIN` and `LEFT JOIN`.
+* Filtered records using `WHERE`, `IN`, and `IS NULL`.
+* Analysed customer and transaction data using aggregate functions.
+* Generated grouped summaries using `GROUP BY` and `HAVING`.
+* Created reports using SQL date functions.
+* Built a simple fraud detection query to identify suspicious transaction activity.
 
 ---
 
-### Transaction Decision Engine
-Built a more realistic banking transaction processor that evaluates transactions using multiple security checks.
+## Repository Contents
 
-The engine validates:
-- Blocked destination countries
-- Daily transaction limits
-- Invalid amounts
-- Large transfers
-- Trusted vs untrusted devices
-
-Possible outcomes include:
-- APPROVED
-- REVIEW
-- PENDING
-- BLOCKED
-
-**Concepts**
-- Nested conditionals
-- Constants
-- Dictionaries
-- Function design
-- Business rule implementation
-- Automated decision making
-
----
-
-# SQL
-
-## Overview
-
-Worked with a relational banking database containing Customers, Accounts and Transactions tables.
-
----
-
-## Joins
-
-Practised retrieving related information using:
-- INNER JOIN
-- LEFT JOIN
-
-Built queries to:
-- Display customer accounts and balances
-- Filter customers by province and balance
-- Combine customers, accounts and transactions
-- Find customers with no transactions
-
----
-
-## Filtering
-
-Used:
-- WHERE
-- IN
-- IS NULL
-
-to retrieve specific banking records.
-
----
-
-## Aggregation
-
-Used aggregate functions including:
-- COUNT()
-- SUM()
-- AVG()
-
-to analyse customer and account data.
-
----
-
-## Grouping
-
-Practised:
-- GROUP BY
-- HAVING
-
-to produce summaries such as:
-- Transactions per customer
-- Average balance per account type
-- Total deposits by province
-
----
-
-## Date Functions
-
-Used:
-- YEAR()
-- MONTH()
-- DATE()
-
-to generate monthly transaction summaries and daily transaction reports.
-
----
-
-## Fraud Detection
-
-Created a query that identifies customers making more than three debit transactions in a single day, demonstrating a simple fraud detection pattern.
-
----
-
-# Skills Practised
-
-## Python
-- Functions
-- Conditional statements
-- Nested logic
-- Dictionaries
-- Boolean logic
-- Input validation
-- Banking business rules
-
-## SQL
-- INNER JOIN
-- LEFT JOIN
-- WHERE
-- GROUP BY
-- HAVING
-- ORDER BY
-- Aggregate functions
-- Date functions
-- Multi-table queries
+| File                              | Description                                                                                     |
+| --------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `python/conditionals.py`          | Python exercises demonstrating conditional statements and banking business logic.               |
+| `python/day3_exercises.py`        | Practical Python exercises covering functions and decision-making.                              |
+| `python/transaction_flowchart.py` | Transaction processing logic model illustrating banking decision workflows.                     |
+| `sql/day1_joins.sql`              | SQL queries demonstrating `INNER JOIN` and `LEFT JOIN` operations across the FinTrust database. |
+| `sql/day2_aggregates.sql`         | SQL queries using aggregate functions to analyse customer accounts and transaction data.        |
 
 ---
 
 ## Outcome
 
-By the end of the week, a small banking portfolio was built that demonstrates both application logic in Python and relational data analysis using SQL. The exercises simulate real-world financial systems by applying business rules, validating transactions, querying customer data, generating reports, and identifying potential fraud patterns.
+By the end of Week 2, I had strengthened my Python programming skills by developing applications that model real-world banking processes using conditional logic and reusable functions. I also expanded my SQL knowledge by writing multi-table queries, analysing transactional data, generating summary reports, and implementing basic fraud detection techniques within the FinTrust banking environment.
