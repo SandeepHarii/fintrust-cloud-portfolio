@@ -1,0 +1,93 @@
+"""
+This module creates the SQLite database and inserts validated
+transactions into the database.
+"""
+
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+
+
+def setup_database(db_path: Path) -> sqlite3.Connection:
+    """Create the transactions table if it does not already exist."""
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS transactions (
+            transaction_id TEXT PRIMARY KEY,
+            account_from   TEXT NOT NULL,
+            account_to     TEXT,
+            amount         REAL NOT NULL,
+            currency       TEXT NOT NULL,
+            type           TEXT NOT NULL,
+            status         TEXT NOT NULL,
+            timestamp      TEXT,
+            loaded_at      TEXT NOT NULL
+        )
+    """)
+
+    conn.commit()
+
+    return conn
+
+
+def insert_transactions(
+    conn: sqlite3.Connection,
+    valid_rows: list[dict],
+) -> tuple[int, int]:
+    """Insert validated transactions into the database.
+
+    Duplicate transaction IDs are skipped.
+    """
+
+    loaded_at = datetime.now().isoformat(timespec="seconds")
+
+    inserted = 0
+    skipped = 0
+
+    for row in valid_rows:
+        try:
+            conn.execute(
+                """
+                INSERT INTO transactions
+                    (transaction_id,
+                     account_from,
+                     account_to,
+                     amount,
+                     currency,
+                     type,
+                     status,
+                     timestamp,
+                     loaded_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    row["transaction_id"],
+                    row["account_from"],
+                    row["account_to"] or None,
+                    float(row["amount"]),
+                    row["currency"],
+                    row["type"],
+                    row["status"],
+                    row["timestamp"],
+                    loaded_at,
+                ),
+            )
+
+            inserted += 1
+
+        except sqlite3.IntegrityError:
+            # Skip duplicate transaction IDs.
+            skipped += 1
+
+    conn.commit()
+
+    return inserted, skipped
+
+
+def query(conn: sqlite3.Connection, sql: str) -> list[sqlite3.Row]:
+    """Execute a SQL query and return all resulting rows."""
+
+    return conn.execute(sql).fetchall()
