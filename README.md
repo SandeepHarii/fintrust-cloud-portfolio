@@ -57,7 +57,7 @@ Each completed week includes:
 - SQL fundamentals
 - Data filtering using `WHERE`
 
-📁 **More details:** [`week01`](./week01/)
+📁 **More details:** [`week-01`](./week-01/)
 
 ---
 
@@ -78,7 +78,7 @@ Each completed week includes:
 - Aggregation and reporting
 - Fraud detection queries
 
-📁 **More details:** [`week02`](./week02/)
+📁 **More details:** [`week-02`](./week-02/)
 
 ---
 
@@ -101,7 +101,7 @@ Each completed week includes:
 - Error handling and logging
 - CSV and JSON processing
 
-📁 **More details:** [`week03`](./week03/)
+📁 **More details:** [`week-03`](./week-03/)
 
 ---
 
@@ -135,4 +135,4 @@ Each completed week includes:
 - Built data analysis workflows using pandas.
 - Applied AWS database services to real-world banking scenarios.
 
-📁 **More details:** [`week04`](./week04/)
+📁 **More details:** [`week-04`](./week-04/)
