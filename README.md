@@ -1,9 +1,51 @@
 # FinTrust Cloud Portfolio
 
+A professional portfolio documenting the design and implementation of cloud solutions using AWS, Python and SQL through a realistic banking case study completed during a 16-week Cloud to Solutions Accelerator programme.
+
 **Learner:** Sandeep Hari  
 **Programme:** Cloud to Solutions Accelerator (16 Weeks)  
 **Target Certification:** AWS Certified Solutions Architect – Associate (SAA-C03)  
 **Cohort Start:** 6 July 2026
+
+---
+
+## Technology Stack
+
+### Cloud
+- Amazon Web Services (AWS)
+
+### Programming
+- Python
+
+### Databases
+- SQLite
+- Amazon RDS
+- Amazon Aurora
+- Amazon DynamoDB
+- Amazon Redshift
+- Amazon QLDB
+- Amazon DocumentDB
+
+### Libraries
+- boto3
+- pandas
+
+### Tools
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## Portfolio Objectives
+
+Throughout this programme I aim to:
+
+- Design scalable AWS cloud architectures.
+- Apply software engineering principles using Python.
+- Build production-inspired banking solutions.
+- Develop ETL pipelines and data processing workflows.
+- Prepare for the AWS Certified Solutions Architect – Associate (SAA-C03) certification.
 
 ---
 
@@ -19,10 +61,10 @@ The portfolio showcases practical work completed throughout the programme, cover
 
 | Week | Theme | Status |
 |------|-------|--------|
-| Week 1 | Cloud & SQL Foundations | ✅ Completed |
-| Week 2 | Python Banking Logic & SQL Analysis | ✅ Completed |
-| Week 3 | AWS Storage & Python Development | ✅ Completed |
-| Week 4 | AWS Database Services & ETL Pipeline | ✅ Completed |
+| Week 1 | Cloud & SQL Foundations | ✅ 100% Complete |
+| Week 2 | Python Banking Logic & SQL Analysis | ✅ 100% Complete |
+| Week 3 | AWS Storage & Python Development | ✅ 100% Complete |
+| Week 4 | AWS Database Services & ETL Pipeline | ✅ 100% Complete |
 
 ---
 
@@ -136,3 +178,9 @@ Each completed week includes:
 - Applied AWS database services to real-world banking scenarios.
 
 📁 **More details:** [`week-04`](./week-04/)
+
+## About This Portfolio
+
+This repository is maintained as a living portfolio throughout the Cloud to Solutions Accelerator programme. Each week introduces new AWS services, software engineering concepts and practical implementations that build towards a complete cloud-native banking solution.
+
+The repository is updated continuously as new topics are completed during the programme.
