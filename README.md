@@ -9,15 +9,33 @@ A professional portfolio documenting the design and implementation of cloud solu
 
 ---
 
-## Technology Stack
+# Table of Contents
 
-### Cloud
+- [Technology Stack](#technology-stack)
+- [Portfolio Objectives](#portfolio-objectives)
+- [About This Repository](#about-this-repository)
+- [Portfolio Highlights](#portfolio-highlights)
+- [Progress](#progress)
+- [Weekly Portfolio Structure](#weekly-portfolio-structure)
+- [Weekly Summaries](#weekly-summaries)
+- [Version History](#version-history)
+- [Certifications](#certifications)
+- [About This Portfolio](#about-this-portfolio)
+
+---
+
+# Technology Stack
+
+## Cloud
+
 - Amazon Web Services (AWS)
 
-### Programming
+## Programming
+
 - Python
 
-### Databases
+## Databases
+
 - SQLite
 - Amazon RDS
 - Amazon Aurora
@@ -26,18 +44,21 @@ A professional portfolio documenting the design and implementation of cloud solu
 - Amazon QLDB
 - Amazon DocumentDB
 
-### Libraries
+## Libraries
+
 - boto3
 - pandas
 
-### Tools
+## Tools
+
 - Git
 - GitHub
 - Visual Studio Code
+- Draw.io
 
 ---
 
-## Portfolio Objectives
+# Portfolio Objectives
 
 Throughout this programme I aim to:
 
@@ -49,15 +70,32 @@ Throughout this programme I aim to:
 
 ---
 
-## About This Repository
+# About This Repository
 
 This repository documents my learning journey throughout the 16-week Cloud to Solutions Accelerator programme using the **FinTrust** banking case study.
 
-The portfolio showcases practical work completed throughout the programme, covering AWS cloud architecture, Python development, SQL, data engineering, and supporting technical documentation. Each week builds on the previous one, demonstrating the progression from cloud fundamentals to designing and implementing production-inspired solutions.
+The portfolio showcases practical work completed throughout the programme, covering AWS cloud architecture, Python development, SQL, networking, data engineering, and supporting technical documentation. Each week builds upon the previous one, demonstrating the progression from cloud fundamentals to designing production-inspired cloud-native solutions.
 
 ---
 
-## Progress
+# Portfolio Highlights
+
+Current portfolio includes:
+
+- AWS architecture diagrams
+- Multi-AZ cloud infrastructure designs
+- Python banking applications
+- ETL pipeline development
+- SQL database design and reporting
+- Amazon Route 53 DNS configurations
+- Amazon CloudFront architectures
+- Technical documentation
+- Weekly engineering reflections
+- AWS certification preparation
+
+---
+
+# Progress
 
 | Week | Theme | Status |
 |------|-------|--------|
@@ -65,122 +103,194 @@ The portfolio showcases practical work completed throughout the programme, cover
 | Week 2 | Python Banking Logic & SQL Analysis | ✅ 100% Complete |
 | Week 3 | AWS Storage & Python Development | ✅ 100% Complete |
 | Week 4 | AWS Database Services & ETL Pipeline | ✅ 100% Complete |
+| Week 5 | AWS Networking | ✅ 100% Complete |
 
 ---
 
-## Weekly Portfolio Structure
+# Weekly Portfolio Structure
 
 Each completed week includes:
 
 - Technical weekly report (`README.md`)
 - Weekly reflection (`reflection.md`)
 - Source code and practical exercises
-- Architecture diagrams (where applicable)
-- Supporting documentation and project artefacts
+- Architecture diagrams
+- Supporting documentation
+- Technical write-ups
+- Hands-on lab solutions
 
 ---
 
-## Weekly Summaries
+# Weekly Summaries
 
-### Week 1 – Cloud & SQL Foundations
+## Week 1 – Cloud & SQL Foundations
 
-**AM Session – AWS**
+### AWS
 
-- AWS global infrastructure and networking fundamentals
-- Amazon VPC architecture
+- AWS Global Infrastructure
+- Amazon VPC fundamentals
 - Public and private subnets
-- Internet Gateway and NAT Gateway
-- Security Groups and Network ACLs
+- Internet Gateway
+- NAT Gateway
+- Security Groups
+- Network ACLs
 
-**PM Session – SQL**
+### SQL
 
-- Relational database design
+- Database design
 - FinTrust banking schema
 - SQL fundamentals
-- Data filtering using `WHERE`
+- WHERE filtering
 
-📁 **More details:** [`week-01`](./week-01/)
+📁 **Folder:** [`week-01`](./week-01/)
 
 ---
 
-### Week 2 – Python Banking Logic & SQL Analysis
+## Week 2 – Python Banking Logic & SQL Analysis
 
-**AM Session – AWS**
+### AWS
 
 - Amazon EC2
-- Amazon ECS and AWS Fargate
-- Amazon EBS and Amazon EFS
-- Compute service selection
+- Amazon ECS
+- AWS Fargate
+- Amazon EBS
+- Amazon EFS
 
-**PM Session – Python & SQL**
+### Python & SQL
 
-- Banking business logic with Python
-- Functions and conditional statements
+- Functions
+- Conditional logic
 - SQL joins
-- Aggregation and reporting
+- Aggregate reporting
 - Fraud detection queries
 
-📁 **More details:** [`week-02`](./week-02/)
+📁 **Folder:** [`week-02`](./week-02/)
 
 ---
 
-### Week 3 – AWS Storage & Python Development
+## Week 3 – AWS Storage & Python Development
 
-**AM Session – AWS**
+### AWS
 
 - Amazon S3
-- CloudFront
-- S3 security and policies
+- CloudFront fundamentals
+- S3 security
 - Static website hosting
 - AWS Snow Family
-- Hybrid storage architectures
 
-**PM Session – Python**
+### Python
 
-- Functions and modules
-- Python standard library
-- File I/O
-- Error handling and logging
-- CSV and JSON processing
+- Modules
+- File handling
+- Logging
+- Error handling
+- CSV processing
+- JSON processing
 
-📁 **More details:** [`week-03`](./week-03/)
+📁 **Folder:** [`week-03`](./week-03/)
 
 ---
 
-### Week 4 – AWS Database Services & ETL Pipeline
+## Week 4 – AWS Database Services & ETL Pipeline
 
-**AM Session – AWS**
+### AWS
 
 - Amazon RDS
 - Amazon Aurora
-- Amazon DynamoDB
-- Amazon QLDB
-- Amazon DocumentDB
-- Amazon ElastiCache
-- Amazon Redshift
-- AWS Database Migration Service (DMS)
-- Purpose-built database selection
+- DynamoDB
+- QLDB
+- DocumentDB
+- ElastiCache
+- Redshift
+- Database Migration Service (DMS)
 
-**PM Session – Python**
+### Python
 
-- Custom exception classes
-- Debugging techniques
-- Modular package design
-- ETL pipeline development
-- `boto3`
-- `pandas`
+- Custom exceptions
+- Package structure
+- Debugging
+- ETL pipelines
+- boto3
+- pandas
 
-**Key Outcome**
+### Key Outcomes
 
 - Designed a seven-layer FinTrust database architecture.
-- Refactored a transaction processing application into a modular ETL pipeline.
+- Refactored a banking application into a modular ETL pipeline.
 - Built data analysis workflows using pandas.
-- Applied AWS database services to real-world banking scenarios.
+- Applied AWS purpose-built database services.
 
-📁 **More details:** [`week-04`](./week-04/)
+📁 **Folder:** [`week-04`](./week-04/)
 
-## About This Portfolio
+---
 
-This repository is maintained as a living portfolio throughout the Cloud to Solutions Accelerator programme. Each week introduces new AWS services, software engineering concepts and practical implementations that build towards a complete cloud-native banking solution.
+## Week 5 – AWS Networking
 
-The repository is updated continuously as new topics are completed during the programme.
+### AWS Networking
+
+- Amazon VPC
+- Multi-AZ architectures
+- Route Tables
+- Internet Gateway
+- NAT Gateway
+- Security Groups
+- Network ACLs
+
+### Connectivity
+
+- Application Load Balancer
+- Path-based routing
+- VPC Peering
+- AWS Transit Gateway
+- AWS Direct Connect
+- Site-to-Site VPN
+- AWS PrivateLink
+
+### DNS & Edge Services
+
+- Amazon Route 53
+- Hosted Zones
+- Routing Policies
+- Amazon CloudFront
+- Origin Access Control (OAC)
+
+### Key Outcomes
+
+- Designed a highly available Multi-AZ VPC architecture.
+- Built enterprise networking diagrams using Draw.io.
+- Configured Application Load Balancer path-based routing.
+- Implemented Route 53 routing strategies.
+- Secured private S3 content using CloudFront and Origin Access Control.
+- Strengthened AWS networking knowledge for SAA-C03 preparation.
+
+📁 **Folder:** [`week-05`](./week-05/)
+
+---
+
+# Version History
+
+| Version | Milestone |
+|---------|-----------|
+| v0.1.0 | Week 1 Complete |
+| v0.2.0 | Week 2 Complete |
+| v0.3.0 | Week 3 Complete |
+| v0.4.0 | Week 4 Complete |
+| v0.5.0 | Week 5 Complete |
+
+---
+
+# Certifications
+
+### In Progress
+
+- AWS Certified Solutions Architect – Associate (SAA-C03)
+
+---
+
+# About This Portfolio
+
+This repository is maintained as a living portfolio throughout the Cloud to Solutions Accelerator programme.
+
+Each week introduces new AWS services, software engineering concepts, architecture diagrams, and hands-on implementations that progressively build towards a complete cloud-native banking solution.
+
+The portfolio will continue to expand over the remaining weeks of the programme, documenting practical experience in cloud architecture, networking, automation, databases, security, DevOps, and software engineering.
