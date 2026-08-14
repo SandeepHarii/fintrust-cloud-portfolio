@@ -9,32 +9,35 @@ A professional portfolio documenting the design and implementation of cloud solu
 
 ---
 
-# Table of Contents
+## Table of Contents
 
 - [Technology Stack](#technology-stack)
 - [Portfolio Objectives](#portfolio-objectives)
 - [About This Repository](#about-this-repository)
-- [Portfolio Highlights](#portfolio-highlights)
 - [Progress](#progress)
 - [Weekly Portfolio Structure](#weekly-portfolio-structure)
 - [Weekly Summaries](#weekly-summaries)
-- [Version History](#version-history)
-- [Certifications](#certifications)
+  - [Week 1 – Cloud & SQL Foundations](#week-1--cloud--sql-foundations)
+  - [Week 2 – Python Banking Logic & SQL Analysis](#week-2--python-banking-logic--sql-analysis)
+  - [Week 3 – AWS Storage & Python Development](#week-3--aws-storage--python-development)
+  - [Week 4 – AWS Database Services & ETL Pipeline](#week-4--aws-database-services--etl-pipeline)
+  - [Week 5 – AWS Networking](#week-5--aws-networking)
+  - [Week 6 – AWS Security](#week-6--aws-security)
 - [About This Portfolio](#about-this-portfolio)
 
 ---
 
-# Technology Stack
+## Technology Stack
 
-## Cloud
+### Cloud
 
 - Amazon Web Services (AWS)
 
-## Programming
+### Programming
 
 - Python
 
-## Databases
+### Databases
 
 - SQLite
 - Amazon RDS
@@ -44,21 +47,20 @@ A professional portfolio documenting the design and implementation of cloud solu
 - Amazon QLDB
 - Amazon DocumentDB
 
-## Libraries
+### Libraries
 
 - boto3
 - pandas
 
-## Tools
+### Tools
 
 - Git
 - GitHub
 - Visual Studio Code
-- Draw.io
 
 ---
 
-# Portfolio Objectives
+## Portfolio Objectives
 
 Throughout this programme I aim to:
 
@@ -70,227 +72,227 @@ Throughout this programme I aim to:
 
 ---
 
-# About This Repository
+## About This Repository
 
 This repository documents my learning journey throughout the 16-week Cloud to Solutions Accelerator programme using the **FinTrust** banking case study.
 
-The portfolio showcases practical work completed throughout the programme, covering AWS cloud architecture, Python development, SQL, networking, data engineering, and supporting technical documentation. Each week builds upon the previous one, demonstrating the progression from cloud fundamentals to designing production-inspired cloud-native solutions.
+The portfolio showcases practical work completed throughout the programme, covering AWS cloud architecture, Python development, SQL, data engineering, networking, security, and supporting technical documentation.
+
+Each completed week builds on the previous one, demonstrating the progression from cloud fundamentals toward designing and implementing production-inspired cloud solutions.
 
 ---
 
-# Portfolio Highlights
+## Progress
 
-Current portfolio includes:
-
-- AWS architecture diagrams
-- Multi-AZ cloud infrastructure designs
-- Python banking applications
-- ETL pipeline development
-- SQL database design and reporting
-- Amazon Route 53 DNS configurations
-- Amazon CloudFront architectures
-- Technical documentation
-- Weekly engineering reflections
-- AWS certification preparation
+| Week | Dates | Theme | Status |
+| --- | --- | --- | --- |
+| Week 1 | 6 July 2026 - 10 July 2026 | Cloud & SQL Foundations | ✅ 100% Complete |
+| Week 2 | 13 July 2026 - 17 July 2026 | Python Banking Logic & SQL Analysis | ✅ 100% Complete |
+| Week 3 | 20 July 2026 - 24 July 2026 | AWS Storage & Python Development | ✅ 100% Complete |
+| Week 4 | 27 July 2026 - 31 July 2026 | AWS Database Services & ETL Pipeline | ✅ 100% Complete |
+| Week 5 | 3 August 2026 - 7 August 2026 | AWS Networking | ✅ 100% Complete |
+| Week 6 | 10 August 2026 - 14 August 2026 | AWS Security | ✅ 100% Complete |
 
 ---
 
-# Progress
-
-| Week | Theme | Status |
-|------|-------|--------|
-| Week 1 | Cloud & SQL Foundations | ✅ 100% Complete |
-| Week 2 | Python Banking Logic & SQL Analysis | ✅ 100% Complete |
-| Week 3 | AWS Storage & Python Development | ✅ 100% Complete |
-| Week 4 | AWS Database Services & ETL Pipeline | ✅ 100% Complete |
-| Week 5 | AWS Networking | ✅ 100% Complete |
-
----
-
-# Weekly Portfolio Structure
+## Weekly Portfolio Structure
 
 Each completed week includes:
 
 - Technical weekly report (`README.md`)
 - Weekly reflection (`reflection.md`)
-- Source code and practical exercises
-- Architecture diagrams
-- Supporting documentation
-- Technical write-ups
-- Hands-on lab solutions
+- Source code and practical exercises where applicable
+- Architecture diagrams where applicable
+- Supporting documentation and project artefacts
+
+Additional documents, such as mock exam reviews, are included only when they are part of the work completed during that specific week.
 
 ---
 
-# Weekly Summaries
+## Weekly Summaries
 
-## Week 1 – Cloud & SQL Foundations
+### Week 1 – Cloud & SQL Foundations
 
-### AWS
+**AM Session – AWS**
 
-- AWS Global Infrastructure
-- Amazon VPC fundamentals
+- AWS global infrastructure and networking fundamentals
+- Amazon VPC architecture
 - Public and private subnets
-- Internet Gateway
-- NAT Gateway
-- Security Groups
-- Network ACLs
+- Internet Gateway and NAT Gateway
+- Security Groups and Network ACLs
 
-### SQL
+**PM Session – SQL**
 
-- Database design
+- Relational database design
 - FinTrust banking schema
 - SQL fundamentals
-- WHERE filtering
+- Data filtering using `WHERE`
 
-📁 **Folder:** [`week-01`](./week-01/)
+📁 **More details:** [`week-01`](./week-01/)
 
 ---
 
-## Week 2 – Python Banking Logic & SQL Analysis
+### Week 2 – Python Banking Logic & SQL Analysis
 
-### AWS
+**AM Session – AWS**
 
 - Amazon EC2
-- Amazon ECS
-- AWS Fargate
-- Amazon EBS
-- Amazon EFS
+- Amazon ECS and AWS Fargate
+- Amazon EBS and Amazon EFS
+- Compute service selection
 
-### Python & SQL
+**PM Session – Python & SQL**
 
-- Functions
-- Conditional logic
+- Banking business logic with Python
+- Functions and conditional statements
 - SQL joins
-- Aggregate reporting
+- Aggregation and reporting
 - Fraud detection queries
 
-📁 **Folder:** [`week-02`](./week-02/)
+📁 **More details:** [`week-02`](./week-02/)
 
 ---
 
-## Week 3 – AWS Storage & Python Development
+### Week 3 – AWS Storage & Python Development
 
-### AWS
+**AM Session – AWS**
 
 - Amazon S3
-- CloudFront fundamentals
-- S3 security
+- CloudFront
+- S3 security and policies
 - Static website hosting
 - AWS Snow Family
+- Hybrid storage architectures
 
-### Python
+**PM Session – Python**
 
-- Modules
-- File handling
-- Logging
-- Error handling
-- CSV processing
-- JSON processing
+- Functions and modules
+- Python standard library
+- File I/O
+- Error handling and logging
+- CSV and JSON processing
 
-📁 **Folder:** [`week-03`](./week-03/)
+📁 **More details:** [`week-03`](./week-03/)
 
 ---
 
-## Week 4 – AWS Database Services & ETL Pipeline
+### Week 4 – AWS Database Services & ETL Pipeline
 
-### AWS
+**AM Session – AWS**
 
 - Amazon RDS
 - Amazon Aurora
-- DynamoDB
-- QLDB
-- DocumentDB
-- ElastiCache
-- Redshift
-- Database Migration Service (DMS)
+- Amazon DynamoDB
+- Amazon QLDB
+- Amazon DocumentDB
+- Amazon ElastiCache
+- Amazon Redshift
+- AWS Database Migration Service (DMS)
+- Purpose-built database selection
 
-### Python
+**PM Session – Python**
 
-- Custom exceptions
-- Package structure
-- Debugging
-- ETL pipelines
-- boto3
-- pandas
+- Custom exception classes
+- Debugging techniques
+- Modular package design
+- ETL pipeline development
+- `boto3`
+- `pandas`
 
-### Key Outcomes
+**Key Outcome**
 
 - Designed a seven-layer FinTrust database architecture.
-- Refactored a banking application into a modular ETL pipeline.
+- Refactored a transaction processing application into a modular ETL pipeline.
 - Built data analysis workflows using pandas.
-- Applied AWS purpose-built database services.
+- Applied AWS database services to real-world banking scenarios.
 
-📁 **Folder:** [`week-04`](./week-04/)
+📁 **More details:** [`week-04`](./week-04/)
 
 ---
 
-## Week 5 – AWS Networking
+### Week 5 – AWS Networking
 
-### AWS Networking
+**AM Session – AWS Networking**
 
-- Amazon VPC
-- Multi-AZ architectures
-- Route Tables
-- Internet Gateway
-- NAT Gateway
-- Security Groups
-- Network ACLs
-
-### Connectivity
-
-- Application Load Balancer
-- Path-based routing
-- VPC Peering
-- AWS Transit Gateway
-- AWS Direct Connect
-- Site-to-Site VPN
-- AWS PrivateLink
-
-### DNS & Edge Services
-
+- Amazon VPC architecture
+- Multi-AZ networking
+- Public and private subnets
+- Internet Gateway and NAT Gateways
+- Route tables
+- Security Groups and Network ACLs
+- Application Load Balancers
+- AWS connectivity services
 - Amazon Route 53
-- Hosted Zones
-- Routing Policies
+- DNS routing policies
 - Amazon CloudFront
 - Origin Access Control (OAC)
 
-### Key Outcomes
+**Architecture & Practical Labs**
 
-- Designed a highly available Multi-AZ VPC architecture.
-- Built enterprise networking diagrams using Draw.io.
-- Configured Application Load Balancer path-based routing.
-- Implemented Route 53 routing strategies.
-- Secured private S3 content using CloudFront and Origin Access Control.
-- Strengthened AWS networking knowledge for SAA-C03 preparation.
+- Built a Multi-AZ FinTrust VPC architecture.
+- Designed Application Load Balancer path-based routing.
+- Explored enterprise connectivity options.
+- Designed Route 53 routing architectures.
+- Designed CloudFront delivery using OAC and private S3 storage.
+- Applied networking concepts to production-inspired banking scenarios.
 
-📁 **Folder:** [`week-05`](./week-05/)
+**Key Outcome**
 
----
+- Designed secure Multi-AZ networking architectures.
+- Applied load balancing and path-based routing.
+- Designed DNS and content delivery architectures.
+- Improved understanding of how AWS networking services work together.
 
-# Version History
-
-| Version | Milestone |
-|---------|-----------|
-| v0.1.0 | Week 1 Complete |
-| v0.2.0 | Week 2 Complete |
-| v0.3.0 | Week 3 Complete |
-| v0.4.0 | Week 4 Complete |
-| v0.5.0 | Week 5 Complete |
+📁 **More details:** [`week-05`](./week-05/)
 
 ---
 
-# Certifications
+### Week 6 – AWS Security
 
-### In Progress
+**AM Session – AWS Security**
 
-- AWS Certified Solutions Architect – Associate (SAA-C03)
+- Advanced AWS Identity and Access Management
+- IAM Identity Center and Active Directory
+- Amazon Cognito and Cognito Identity Pools
+- IAM policies and Permission Boundaries
+- AWS security services
+- Encryption and key management
+- Application and network security
+- Threat detection and investigation
+- Monitoring, auditing and compliance
+- Incident response and automated containment
+
+**PM Session – Python & SQL**
+
+- Python security automation concepts
+- Python and boto3 for AWS-related automation
+- SQL Window Functions
+
+**FinTrust Security Architecture**
+
+- Designed workforce identity access for approximately 300 employees using IAM Identity Center and Active Directory.
+- Designed customer identity access for approximately 100,000 customers using Amazon Cognito and Cognito Identity Pools.
+- Applied Permission Boundaries to limit the maximum permissions available to privileged roles.
+- Evaluated AWS security services based on FinTrust's banking requirements.
+- Designed an incident-response workflow using GuardDuty, EventBridge, Lambda and an isolation Security Group.
+- Explored VPC Flow Logs and CloudTrail as sources of investigation evidence.
+- Synthesised the week's work into a CISO-facing FinTrust security architecture summary.
+
+**Key Outcome**
+
+- Developed a layered understanding of AWS security.
+- Applied least privilege, defence in depth and separation of duties.
+- Distinguished between identity, protection, detection, monitoring and response controls.
+- Designed how multiple AWS security services can work together within a banking environment.
+
+📁 **More details:** [`week-06`](./week-06/)
 
 ---
 
-# About This Portfolio
+## About This Portfolio
 
 This repository is maintained as a living portfolio throughout the Cloud to Solutions Accelerator programme.
 
-Each week introduces new AWS services, software engineering concepts, architecture diagrams, and hands-on implementations that progressively build towards a complete cloud-native banking solution.
+Each week introduces new AWS services, software engineering concepts and practical implementations that build towards a complete cloud-native banking solution.
 
-The portfolio will continue to expand over the remaining weeks of the programme, documenting practical experience in cloud architecture, networking, automation, databases, security, DevOps, and software engineering.
+The repository is updated continuously as new topics are completed during the programme.
