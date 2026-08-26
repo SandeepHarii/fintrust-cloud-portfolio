@@ -1,0 +1,5 @@
+# Reflection: Pandas vs Athena
+
+Pandas is well suited for local data analysis, prototyping, feature engineering, and exploratory work performed by data scientists. It allows developers to load data directly into memory, perform transformations, create aggregations, and test business logic quickly. At FinTrust, Pandas would be useful when investigating a small subset of transaction data, creating fraud-detection features, or validating ETL processes before deploying them into production.
+
+Athena is better suited for large-scale analytics across datasets stored in Amazon S3. Data engineers and analysts can use SQL to query terabytes of transaction data without managing infrastructure. Athena is ideal for compliance reporting, auditing, historical investigations, and operational dashboards. Because Athena charges based on the amount of data scanned, using partitioned Parquet data helps reduce query costs and improves performance.
