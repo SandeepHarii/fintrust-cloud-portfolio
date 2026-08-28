@@ -627,7 +627,8 @@ The required AWS console evidence for Athena, OpenSearch, EMR, QuickSight and Sa
 
 Rekognition and Comprehend workflows were developed as portfolio-ready Python implementations without provisioning production AWS resources.
 
-📁 **More details:** [`Week 08`](./Week%2008/)
+📁 **More details:** [`week-08`](./week-08/)
+
 
 ---
 
