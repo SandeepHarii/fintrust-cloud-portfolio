@@ -2,28 +2,23 @@
 
 A professional portfolio documenting the design and implementation of cloud solutions using AWS, Python and SQL through a realistic banking case study completed during a 16-week Cloud to Solutions Accelerator programme.
 
-**Learner:** Sandeep Hari
+**Learner** Sandeep Hari
 
-**Programme:** Cloud to Solutions Accelerator (16 Weeks)
+**Programme** Cloud to Solutions Accelerator (16 Weeks)
 
-**Target Certification:** AWS Certified Solutions Architect – Associate (SAA-C03)
+**Target Certification** AWS Certified Solutions Architect – Associate (SAA-C03)
 
-**Cohort Start:** 6 July 2026
+**Cohort Start** 6 July 2026
 
 ---
 
 ## Table of Contents
 
 * [Technology Stack](#technology-stack)
-
 * [Portfolio Objectives](#portfolio-objectives)
-
 * [About This Repository](#about-this-repository)
-
 * [Progress](#progress)
-
 * [Weekly Portfolio Structure](#weekly-portfolio-structure)
-
 * [Weekly Summaries](#weekly-summaries)
 
   * [Week 1 – Cloud & SQL Foundations](#week-1--cloud--sql-foundations)
@@ -36,162 +31,26 @@ A professional portfolio documenting the design and implementation of cloud solu
   * [Week 8 – Analytics, Streaming & Machine Learning](#week-8--analytics-streaming--machine-learning)
   * [Week 9 – Cost Management, Governance, Migration & Resilience](#week-9--cost-management-governance-migration--resilience)
   * [Week 10 – Migration, Data Transfer & Cost Optimisation](#week-10--migration-data-transfer--cost-optimisation)
-
+  * [Week 11 – Well-Architected Framework, SQL & Python Engineering](#week-11--well-architected-framework-sql--python-engineering)
 * [About This Portfolio](#about-this-portfolio)
 
 ---
 
 ## Technology Stack
 
-### Cloud
-
-* AWS
-
-### Development
-
-* Python
-
-* SQL
-
-### Data & Analytics
-
-* SQLite
-
-* pandas
-
-* Amazon Athena
-
-* AWS Glue
-
-* Amazon Kinesis
-
-* Amazon EMR
-
-* AWS Cost and Usage Report (CUR)
-
-### Application & Serverless
-
-* AWS Lambda
-
-* Amazon API Gateway
-
-* Amazon SQS
-
-* Amazon SNS
-
-* Amazon EventBridge
-
-* AWS Step Functions
-
-### Infrastructure & Networking
-
-* Amazon VPC
-
-* Amazon EC2
-
-* Amazon S3
-
-* Amazon CloudFront
-
-* Amazon Route 53
-
-* Elastic Load Balancing
-
-* AWS CloudFormation
-
-### Databases
-
-* Amazon RDS
-
-* Amazon Aurora
-
-* Amazon DynamoDB
-
-* Amazon QLDB
-
-* Amazon DocumentDB
-
-* Amazon ElastiCache
-
-* Amazon Redshift
-
-### Security & Monitoring
-
-* AWS IAM
-
-* IAM Identity Center
-
-* Amazon Cognito
-
-* AWS KMS
-
-* AWS Secrets Manager
-
-* AWS WAF
-
-* AWS Shield
-
-* Amazon GuardDuty
-
-* Amazon Inspector
-
-* Amazon Detective
-
-* AWS Security Hub
-
-* AWS CloudTrail
-
-* Amazon CloudWatch
-
-* AWS Config
-
-* AWS Systems Manager
-
-### Cost Management & Governance
-
-* AWS Cost Explorer
-
-* AWS Budgets
-
-* AWS Pricing Calculator
-
-* AWS Compute Optimizer
-
-* AWS Service Catalog
-
-* AWS Savings Plans
-
-### Migration & Resilience
-
-* AWS Database Migration Service (DMS)
-
-* AWS Snow Family
-
-* AWS Fault Injection Service (FIS)
-
-* AWS Migration Evaluator
-
-* AWS Disaster Recovery concepts
-
-### AI & Machine Learning
-
-* Amazon SageMaker
-
-* Amazon Rekognition
-
-* Amazon Comprehend
-
-* Amazon QuickSight
-
-* Amazon OpenSearch Service
-
-### Tools
-
-* Git
-
-* GitHub
-
-* Visual Studio Code
+| Category                           | Technologies                                                                                                                                                                                                                                              |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ☁️ **Cloud**                       | AWS                                                                                                                                                                                                                                                       |
+| 🐍 **Development**                 | Python · SQL                                                                                                                                                                                                                                              |
+| 📊 **Data & Analytics**            | SQLite · pandas · Amazon Athena · AWS Glue · Amazon Kinesis · Amazon EMR · AWS Cost and Usage Report (CUR)                                                                                                                                                |
+| ⚡ **Application & Serverless**     | AWS Lambda · Amazon API Gateway · Amazon SQS · Amazon SNS · Amazon EventBridge · AWS Step Functions                                                                                                                                                       |
+| 🌐 **Infrastructure & Networking** | Amazon VPC · Amazon EC2 · Amazon S3 · Amazon CloudFront · Amazon Route 53 · Elastic Load Balancing · AWS CloudFormation                                                                                                                                   |
+| 🗄️ **Databases**                  | Amazon RDS · Amazon Aurora · Amazon DynamoDB · Amazon QLDB · Amazon DocumentDB · Amazon ElastiCache · Amazon Redshift                                                                                                                                     |
+| 🔐 **Security & Monitoring**       | AWS IAM · IAM Identity Center · Amazon Cognito · AWS KMS · AWS Secrets Manager · AWS WAF · AWS Shield · Amazon GuardDuty · Amazon Inspector · Amazon Detective · AWS Security Hub · AWS CloudTrail · Amazon CloudWatch · AWS Config · AWS Systems Manager |
+| 💰 **Cost & Governance**           | AWS Cost Explorer · AWS Budgets · AWS Pricing Calculator · AWS Compute Optimizer · AWS Service Catalog · AWS Savings Plans                                                                                                                                |
+| 🔄 **Migration & Resilience**      | AWS Database Migration Service (DMS) · AWS Snow Family · AWS Fault Injection Service (FIS) · AWS Migration Evaluator · Disaster Recovery concepts                                                                                                         |
+| 🤖 **AI & Machine Learning**       | Amazon SageMaker · Amazon Rekognition · Amazon Comprehend · Amazon QuickSight · Amazon OpenSearch Service                                                                                                                                                 |
+| 🛠️ **Tools**                      | Git · GitHub · Visual Studio Code                                                                                                                                                                                                                         |
 
 ---
 
@@ -200,23 +59,14 @@ A professional portfolio documenting the design and implementation of cloud solu
 Throughout this programme I aim to:
 
 * Design scalable AWS cloud architectures.
-
 * Apply software engineering principles using Python.
-
 * Build production-inspired banking solutions.
-
 * Develop ETL pipelines and data processing workflows.
-
 * Develop event-driven and serverless solutions.
-
 * Apply AWS security, monitoring and reliability principles.
-
 * Apply cloud analytics and machine learning concepts.
-
 * Apply cloud cost management and governance principles.
-
 * Develop migration and disaster recovery strategies.
-
 * Prepare for the AWS Certified Solutions Architect – Associate (SAA-C03) certification.
 
 ---
@@ -235,18 +85,19 @@ The portfolio distinguishes between technologies that were **implemented**, **co
 
 ## Progress
 
-| Week    | Duration                             | Theme                                               | Status                    |
-| ------- | ------------------------------------ | --------------------------------------------------- | ------------------------- |
-| Week 1  | 6 July 2026 - 10 July 2026           | Cloud & SQL Foundations                             | ✅ 100% Complete           |
-| Week 2  | 13 July 2026 - 17 July 2026          | Python Banking Logic & SQL Analysis                 | ✅ 100% Complete           |
-| Week 3  | 20 July 2026 - 24 July 2026          | AWS Storage & Python Development                    | ✅ 100% Complete           |
-| Week 4  | 27 July 2026 - 31 July 2026          | AWS Database Services & ETL Pipeline                | ✅ 100% Complete           |
-| Week 5  | 3 August 2026 - 7 August 2026        | AWS Networking                                      | ✅ 100% Complete           |
-| Week 6  | 10 August 2026 - 14 August 2026      | AWS Security                                        | ✅ 100% Complete           |
-| Week 7  | 17 August 2026 - 21 August 2026      | Event-Driven Architecture, APIs & Serverless        | ✅ 100%                    |
-| Week 8  | 24 August 2026 - 28 August 2026      | Analytics, Streaming & Machine Learning             | ✅ Portfolio Work Complete |
-| Week 9  | 31 August 2026 - 4 September 2026    | Cost Management, Governance, Migration & Resilience | ✅ Portfolio Work Complete |
-| Week 10 | 7 September 2026 - 11 September 2026 | Migration, Data Transfer & Cost Optimisation        | ✅ Portfolio Work Complete |
+| Week    | Duration                              | Theme                                                | Status                    |
+| ------- | ------------------------------------- | ---------------------------------------------------- | ------------------------- |
+| Week 1  | 6 July 2026 - 10 July 2026            | Cloud & SQL Foundations                              | ✅ Portfolio Work Complete |
+| Week 2  | 13 July 2026 - 17 July 2026           | Python Banking Logic & SQL Analysis                  | ✅ Portfolio Work Complete |
+| Week 3  | 20 July 2026 - 24 July 2026           | AWS Storage & Python Development                     | ✅ Portfolio Work Complete |
+| Week 4  | 27 July 2026 - 31 July 2026           | AWS Database Services & ETL Pipeline                 | ✅ Portfolio Work Complete |
+| Week 5  | 3 August 2026 - 7 August 2026         | AWS Networking                                       | ✅ Portfolio Work Complete |
+| Week 6  | 10 August 2026 - 14 August 2026       | AWS Security                                         | ✅ Portfolio Work Complete |
+| Week 7  | 17 August 2026 - 21 August 2026       | Event-Driven Architecture, APIs & Serverless         | ✅ Portfolio Work Complete |
+| Week 8  | 24 August 2026 - 28 August 2026       | Analytics, Streaming & Machine Learning              | ✅ Portfolio Work Complete |
+| Week 9  | 31 August 2026 - 4 September 2026     | Cost Management, Governance, Migration & Resilience  | ✅ Portfolio Work Complete |
+| Week 10 | 7 September 2026 - 11 September 2026  | Migration, Data Transfer & Cost Optimisation         | ✅ Portfolio Work Complete |
+| Week 11 | 14 September 2026 - 18 September 2026 | Well-Architected Framework, SQL & Python Engineering | ✅ Portfolio Work Complete |
 
 ---
 
@@ -255,13 +106,9 @@ The portfolio distinguishes between technologies that were **implemented**, **co
 Each completed week includes:
 
 * Technical weekly report (`README.md`)
-
 * Weekly reflection (`reflection.md`)
-
 * Source code and practical exercises where applicable
-
 * Architecture diagrams where applicable
-
 * Supporting documentation and project artefacts
 
 Additional documents, such as mock exam reviews, are included only when they are part of the work completed during that specific week.
@@ -274,25 +121,26 @@ Additional documents, such as mock exam reviews, are included only when they are
 
 **AM Session – AWS**
 
-* AWS global infrastructure and networking fundamentals
-
-* Amazon VPC architecture
-
+* AWS global infrastructure
+* Regions and Availability Zones
+* Amazon VPC fundamentals
 * Public and private subnets
-
-* Internet Gateway and NAT Gateway
-
-* Security Groups and Network ACLs
+* Internet Gateway
+* NAT Gateway
+* Security Groups
+* Network ACLs
 
 **PM Session – SQL**
 
-* Relational database design
-
+* Relational database concepts
+* Database design
 * FinTrust banking schema
-
 * SQL fundamentals
+* Filtering and `WHERE` clauses
 
-* Data filtering using `WHERE`
+**Key Outcome**
+
+Established the cloud and SQL foundations required for the FinTrust case study, including basic AWS networking concepts and relational data modelling.
 
 📁 **More details:** [`week-01`](./week-01/)
 
@@ -303,24 +151,24 @@ Additional documents, such as mock exam reviews, are included only when they are
 **AM Session – AWS**
 
 * Amazon EC2
-
-* Amazon ECS and AWS Fargate
-
-* Amazon EBS and Amazon EFS
-
-* Compute service selection
+* Amazon ECS
+* AWS Fargate
+* Amazon EBS
+* Amazon EFS
 
 **PM Session – Python & SQL**
 
-* Banking business logic with Python
-
-* Functions and conditional statements
-
+* Python functions
+* Conditionals
+* Banking transaction logic
 * SQL joins
-
-* Aggregation and reporting
-
+* Aggregation
+* Transaction analysis
 * Fraud detection queries
+
+**Key Outcome**
+
+Built foundational Python banking logic while strengthening SQL analysis and understanding AWS compute and storage options.
 
 📁 **More details:** [`week-02`](./week-02/)
 
@@ -331,28 +179,25 @@ Additional documents, such as mock exam reviews, are included only when they are
 **AM Session – AWS**
 
 * Amazon S3
-
-* CloudFront
-
-* S3 security and policies
-
+* Amazon CloudFront
+* S3 security
 * Static website hosting
-
 * AWS Snow Family
-
-* Hybrid storage architectures
+* Hybrid storage concepts
 
 **PM Session – Python**
 
-* Functions and modules
-
+* Functions
+* Modules
 * Python standard library
-
 * File I/O
-
-* Error handling and logging
-
+* Error handling
+* Logging
 * CSV and JSON processing
+
+**Key Outcome**
+
+Developed practical Python file-processing skills while exploring AWS object storage, content delivery and hybrid storage solutions.
 
 📁 **More details:** [`week-03`](./week-03/)
 
@@ -363,46 +208,35 @@ Additional documents, such as mock exam reviews, are included only when they are
 **AM Session – AWS**
 
 * Amazon RDS
-
 * Amazon Aurora
-
 * Amazon DynamoDB
-
 * Amazon QLDB
-
 * Amazon DocumentDB
-
 * Amazon ElastiCache
-
 * Amazon Redshift
-
-* AWS Database Migration Service (DMS)
-
-* Purpose-built database selection
+* AWS Database Migration Service
 
 **PM Session – Python**
 
-* Custom exception classes
+* Custom exceptions
+* Debugging
+* Modular Python packages
+* ETL development
+* boto3
+* pandas
 
-* Debugging techniques
+**FinTrust Database Architecture**
 
-* Modular package design
-
-* ETL pipeline development
-
-* `boto3`
-
-* `pandas`
+* Purpose-built database selection
+* Relational banking workloads
+* NoSQL workloads
+* Caching
+* Data warehousing
+* ETL processing
 
 **Key Outcome**
 
-* Designed a seven-layer FinTrust database architecture.
-
-* Refactored a transaction processing application into a modular ETL pipeline.
-
-* Built data analysis workflows using pandas.
-
-* Applied AWS database services to real-world banking scenarios.
+Designed a seven-layer FinTrust database architecture and developed a modular ETL workflow using Python, pandas and AWS database concepts.
 
 📁 **More details:** [`week-04`](./week-04/)
 
@@ -410,55 +244,23 @@ Additional documents, such as mock exam reviews, are included only when they are
 
 ### Week 5 – AWS Networking
 
-**AM Session – AWS Networking**
+**AM Session – AWS**
 
-* Amazon VPC architecture
-
-* Multi-AZ networking
-
+* VPC architecture
 * Public and private subnets
-
-* Internet Gateway and NAT Gateways
-
 * Route tables
-
-* Security Groups and Network ACLs
-
-* Application Load Balancers
-
-* AWS connectivity services
-
-* Amazon Route 53
-
-* DNS routing policies
-
-* Amazon CloudFront
-
-* Origin Access Control (OAC)
-
-**Architecture & Practical Labs**
-
-* Built a Multi-AZ FinTrust VPC architecture.
-
-* Designed Application Load Balancer path-based routing.
-
-* Explored enterprise connectivity options.
-
-* Designed Route 53 routing architectures.
-
-* Designed CloudFront delivery using OAC and private S3 storage.
-
-* Applied networking concepts to production-inspired banking scenarios.
+* NAT Gateway
+* Multi-AZ architecture
+* Application Load Balancer
+* Path-based routing
+* Route 53
+* CloudFront
+* Origin Access Control
+* Enterprise connectivity
 
 **Key Outcome**
 
-* Designed secure Multi-AZ networking architectures.
-
-* Applied load balancing and path-based routing.
-
-* Designed DNS and content delivery architectures.
-
-* Improved understanding of how AWS networking services work together.
+Designed secure Multi-AZ networking architectures using load balancing, routing, DNS and content delivery services.
 
 📁 **More details:** [`week-05`](./week-05/)
 
@@ -466,61 +268,44 @@ Additional documents, such as mock exam reviews, are included only when they are
 
 ### Week 6 – AWS Security
 
-**AM Session – AWS Security**
+**AM Session – AWS**
 
-* Advanced AWS Identity and Access Management
-
-* IAM Identity Center and Active Directory
-
-* Amazon Cognito and Cognito Identity Pools
-
-* IAM policies and Permission Boundaries
-
-* AWS security services
-
-* Encryption and key management
-
-* Application and network security
-
-* Threat detection and investigation
-
-* Monitoring, auditing and compliance
-
-* Incident response and automated containment
+* Advanced IAM
+* IAM Identity Center
+* Active Directory integration
+* Amazon Cognito
+* IAM policies
+* Permission boundaries
+* AWS KMS
+* AWS Secrets Manager
+* Amazon GuardDuty
+* Amazon Inspector
+* Amazon Detective
+* AWS Security Hub
+* AWS CloudTrail
+* Amazon CloudWatch
+* Security monitoring and auditing
+* Incident response
 
 **PM Session – Python & SQL**
 
-* Python security automation concepts
-
-* Python and boto3 for AWS-related automation
-
-* SQL Window Functions
+* Security automation
+* boto3
+* SQL window functions
 
 **FinTrust Security Architecture**
 
-* Designed workforce identity access for approximately 300 employees using IAM Identity Center and Active Directory.
-
-* Designed customer identity access for approximately 100,000 customers using Amazon Cognito and Cognito Identity Pools.
-
-* Applied Permission Boundaries to limit the maximum permissions available to privileged roles.
-
-* Evaluated AWS security services based on FinTrust's banking requirements.
-
-* Designed an incident-response workflow using GuardDuty, EventBridge, Lambda and an isolation Security Group.
-
-* Explored VPC Flow Logs and CloudTrail as sources of investigation evidence.
-
-* Synthesised the week's work into a CISO-facing FinTrust security architecture summary.
+* Least privilege
+* Defence in depth
+* Separation of duties
+* Identity and access management
+* Encryption
+* Threat detection
+* Security monitoring
 
 **Key Outcome**
 
-* Developed a layered understanding of AWS security.
-
-* Applied least privilege, defence in depth and separation of duties.
-
-* Distinguished between identity, protection, detection, monitoring and response controls.
-
-* Designed how multiple AWS security services can work together within a banking environment.
+Developed a layered FinTrust security architecture based on least privilege, defence in depth, monitoring and separation of duties.
 
 📁 **More details:** [`week-06`](./week-06/)
 
@@ -530,87 +315,46 @@ Additional documents, such as mock exam reviews, are included only when they are
 
 **AM Session – AWS**
 
-* Monitoring infrastructure
-
-* AWS CloudTrail
-
-* Messaging and event architecture
-
+* CloudWatch
+* CloudTrail
 * Amazon SQS
-
 * Amazon EventBridge
-
 * AWS Step Functions
-
-* Amazon SWF
-
-* Amazon API Gateway
-
+* Simple Workflow Service
+* API Gateway
 * AWS AppSync
-
 * AWS Lambda
-
 * AWS CloudFormation
-
 * AWS Systems Manager
-
-* Disaster recovery strategies
-
+* Disaster recovery
 * Strangler Fig migration pattern
 
 **PM Session – Python**
 
-* Building APIs with Flask and FastAPI
-
-* Python in AWS Lambda
-
-* Lambda handlers, events and context
-
-* Boto3 and AWS service integration
-
-* Event-driven transaction processing
-
-* Fraud scoring with Python
+* Flask
+* FastAPI
+* AWS Lambda
+* boto3
+* Event-driven architecture
+* Fraud scoring
 
 **FinTrust Event-Driven Architecture**
 
-* Designed an event-driven transaction processing pipeline using Flask, SQS, Lambda and SNS.
+* Flask API
+* SQS
+* Lambda
+* SNS
+* FIFO messaging
+* Fraud scoring
+* Environment variables
+* IAM
+* API architecture
 
-* Designed an SQS FIFO queue for transaction events and message ordering.
-
-* Developed the Lambda fraud scoring logic using transaction amount, currency and description risk keywords.
-
-* Designed SNS notifications for high-risk transactions.
-
-* Applied environment variables for AWS resource configuration.
-
-* Applied IAM least-privilege principles to the Lambda execution role.
-
-* Created an event-driven architecture diagram showing Flask → SQS → Lambda → SNS.
-
-* Extended the FinTrust narrative to explain the new Week 7 services and their purpose.
+The AWS-dependent architecture was documented without presenting unverified resources as deployed. Evidence remains dependent on actual AWS access and provisioning.
 
 **Key Outcome**
 
-* Developed a stronger understanding of event-driven and asynchronous architectures.
-
-* Explored how SQS can decouple transaction submission from downstream processing.
-
-* Applied Lambda to serverless transaction processing and fraud scoring.
-
-* Explored SNS fan-out and downstream notification patterns.
-
-* Built Python API components using Flask and FastAPI.
-
-* Explored API Gateway and AppSync for API delivery.
-
-* Improved understanding of Lambda performance, failure handling and event source mappings.
-
-* Explored CloudFormation for Infrastructure as Code and Change Sets.
-
-* Applied disaster recovery and application modernisation concepts to cloud architecture.
-
-AWS account access was not yet available for the FinTrust AWS deployment during Week 7. Therefore, AWS console evidence for the SQS queue, SNS subscription and CloudWatch Lambda execution remains pending.
+Designed a serverless, event-driven FinTrust transaction processing workflow connecting APIs, queues, Lambda processing and notifications.
 
 📁 **More details:** [`week-07`](./week-07/)
 
@@ -620,91 +364,46 @@ AWS account access was not yet available for the FinTrust AWS deployment during 
 
 **AM Session – AWS**
 
-* Analytics data lake architecture
-
+* Data lakes
 * Amazon Athena
-
 * AWS Glue
-
 * Amazon Kinesis
-
-* Amazon OpenSearch
-
+* Amazon OpenSearch Service
 * Amazon EMR
-
 * Amazon QuickSight
-
 * Amazon SageMaker
-
 * Amazon Rekognition
-
 * Amazon Comprehend
+* AWS service selection
 
-* Machine learning service selection
+**PM Session – Python**
 
-* Analytics and data engineering concepts
+* Athena integration
+* Glue concepts
+* Kinesis processing
+* pandas
+* CSV and Parquet
+* S3 data processing
+* Event-driven processing
+* AI and machine learning workflows
 
-**PM Session – Python & Cloud Integration**
+**FinTrust Analytics Architecture**
 
-* Querying Athena and Glue with Python
+* Streaming transaction data
+* `account_id` partition key
+* Data lake analytics
+* EMR processing
+* QuickSight dashboards
+* SageMaker machine learning
+* Rekognition
+* Comprehend
+* OpenSearch
 
-* Real-time Kinesis data pipelines
-
-* Pandas and transaction analysis
-
-* CSV and Parquet data processing
-
-* S3 data workflows
-
-* Event-driven architecture with API Gateway, EventBridge and Lambda
-
-* Rekognition facial comparison
-
-* Comprehend PII detection and redaction
-
-* Lambda architecture and IAM permissions
-
-**FinTrust Analytics & Machine Learning Architecture**
-
-* Extended the FinTrust platform with real-time transaction streaming using Amazon Kinesis.
-
-* Used `account_id` as the Kinesis partition key to preserve transaction ordering for individual customers.
-
-* Explored Athena and Glue for serverless analytics over curated S3 datasets.
-
-* Explored Amazon EMR for large-scale transaction processing and feature engineering.
-
-* Explored Amazon QuickSight for transaction and fraud analytics dashboards.
-
-* Evaluated Amazon SageMaker for real-time fraud-risk prediction.
-
-* Explored Amazon Rekognition for customer identity verification.
-
-* Explored Amazon Comprehend for PII detection, redaction and sentiment analysis.
-
-* Explored Amazon OpenSearch for security-event analysis and risk visualisation.
-
-* Extended the FinTrust narrative with analytics, streaming and machine learning capabilities.
+No additional AWS resources were presented as deployed where live AWS evidence was unavailable.
 
 **Key Outcome**
 
-* Developed Python workflows for analytics, streaming, ETL and AI services.
-
-* Applied Kinesis partition-key design and considered the trade-off between ordering and shard distribution.
-
-* Compared Pandas-based analysis with Athena serverless analytics.
-
-* Applied Parquet and partitioning concepts to cloud data engineering.
-
-* Improved understanding of AWS analytics, machine learning and AI service selection.
-
-* Extended the FinTrust architecture from core cloud infrastructure into analytics and intelligent banking capabilities.
-
-The Week 8 portfolio work was completed without provisioning additional AWS resources. AWS examples were kept in the Python scripts with AWS API calls commented out until resources and permissions are available.
-
-The required AWS console evidence for Athena, OpenSearch, EMR, QuickSight and SageMaker was therefore not produced.
-
-Rekognition and Comprehend workflows were developed as portfolio-ready Python implementations without provisioning production AWS resources.
+Extended FinTrust into a cloud analytics and streaming architecture covering data lakes, real-time processing, analytics and machine learning.
 
 📁 **More details:** [`week-08`](./week-08/)
 
@@ -714,95 +413,48 @@ Rekognition and Comprehend workflows were developed as portfolio-ready Python im
 
 **AM Session – AWS**
 
-* AWS pricing models and Total Cost of Ownership (TCO)
-
-* AWS Cost Management
-
-* AWS Cost Explorer
-
+* AWS pricing
+* Total Cost of Ownership
+* Cost Explorer
 * AWS Budgets
-
-* AWS Compute Optimizer
-
+* Compute Optimizer
 * Cost governance
-
-* Migration planning and execution
-
-* Migration, resilience and disaster recovery
-
-* AWS Database Migration Service (DMS)
-
+* Migration strategies
+* Disaster recovery
+* AWS DMS
 * AWS Snow Family
+* AWS Fault Injection Service
+* The 7 Rs of migration
 
-* AWS Fault Injection Service (FIS)
+**PM Session – Python**
 
-* Migration strategy using the 7Rs framework
+* Cost reporting
+* Budget concepts
+* Tag compliance
+* AWS Service Catalog
+* DMS concepts
+* Snow Family
+* Fault Injection Service
 
-**PM Session – Python & Cloud Integration**
+**FinTrust Cost, Governance & Resilience Architecture**
 
-* AWS pricing and TCO calculations
+* Cost management
+* Governance controls
+* Migration planning
+* Disaster recovery
+* Resilience strategies
 
-* Cost reporting and service spend analysis
+**Migration Scenario**
 
-* AWS Budgets automation
+A 2,847-server migration scenario was analysed using the AWS migration framework and the 7 Rs.
 
-* Automated monthly cost reporting
-
-* Cost governance and tag compliance
-
-* AWS Service Catalog governance
-
-* DMS task monitoring
-
-* Snow transfer planning
-
-* FIS experiment status monitoring
-
-**FinTrust Cost & Governance Architecture**
-
-* Extended the FinTrust platform with cloud cost management and financial governance.
-
-* Applied AWS pricing and TCO concepts to compare cloud and on-premises cost considerations.
-
-* Designed cost reporting workflows covering monthly spend, service-level breakdowns and top services.
-
-* Documented AWS Budgets controls and percentage-threshold alerting.
-
-* Explored Cost and Usage Report (CUR) data and Athena queries for more granular cost analysis.
-
-* Applied tagging and Service Catalog concepts to strengthen FinTrust resource governance.
-
-* Included Savings Plan considerations for analytics and core banking EC2 and Fargate workloads introduced in Weeks 6–8.
-
-* Applied the 7Rs framework to FinTrust's 2,847-server fleet.
-
-* Classified workloads across Rehost, Replatform, Refactor, Repurchase, Retire, Retain and Relocate based on workload characteristics.
-
-* Extended the FinTrust narrative with migration execution, DMS monitoring, large-scale data transfer and resilience considerations.
+Local migration monitoring work was used where live AWS resources were not available.
 
 **Key Outcome**
 
-* Developed a stronger understanding of cloud financial management and TCO.
+Developed a FinTrust cost management, governance, migration and resilience strategy while applying AWS migration and disaster recovery concepts.
 
-* Applied cost governance concepts to a production-inspired banking environment.
-
-* Distinguished between Cost Explorer and the more granular CUR data model.
-
-* Explored how automated cost reporting could be scheduled using Lambda and EventBridge.
-
-* Applied the 7Rs framework to a large-scale migration scenario.
-
-* Developed a local DMS task monitoring implementation with commented production boto3 guidance.
-
-* Planned large-scale regulatory data transfer using AWS Snow Family concepts.
-
-* Extended FinTrust from a cloud architecture into a broader cloud transformation and migration strategy.
-
-The Week 9 portfolio work was completed without provisioning additional AWS resources. AWS-dependent activities were handled through local Python implementations, simulations and written architecture/planning exercises.
-
-No live AWS cost figures, FinTrust billing data, console screenshots or deployed AWS resources are presented as completed evidence where direct AWS access was unavailable.
-
-The Week 9 documentation distinguishes between implemented local tooling, documented production approaches and AWS console evidence that remains pending.
+No live AWS cost figures or deployments were presented without supporting evidence.
 
 📁 **More details:** [`week-09`](./week-09/)
 
@@ -812,82 +464,121 @@ The Week 9 documentation distinguishes between implemented local tooling, docume
 
 **AM Session – AWS**
 
-* AWS 6Rs migration decision framework
-
 * AWS migration strategies
-
-* Data lake concepts
-
-* AWS Database Migration Service (DMS)
-
-* AWS DMS architecture and migration planning
-
+* Data lakes
+* AWS Database Migration Service
 * AWS DataSync
-
-* Secure and scalable data transfer
-
-* AWS X-Ray and Amazon CloudWatch monitoring
-
-* Transfer cost optimisation
-
+* Data transfer
+* AWS X-Ray
+* Amazon CloudWatch
+* Data transfer costs
 * AWS CloudFormation
 
 **PM Session – Python & SQL**
 
-* Python migration scripts
+* Migration automation
+* Data classification
+* DMS helpers
+* DataSync monitoring
+* Data transfer throttling
+* S3 synchronisation
+* boto3
+* SQL views
 
-* Migration workload classification
+**FinTrust Migration Work**
 
-* DMS automation and monitoring
+* `fintrust_migration` Python package
+* DMS helper functions
+* DataSync monitoring
+* Transfer throttling
+* S3 synchronisation
+* SQL migration views
+* Migration architecture documentation
 
-* DataSync automation
-
-* S3 synchronisation helpers
-
-* AWS session management with boto3
-
-* Migration-related SQL views
-
-**FinTrust Migration Architecture**
-
-* Extended the FinTrust platform with a migration-focused architecture layer.
-
-* Applied the AWS 6Rs framework to determine appropriate migration strategies for different workload characteristics.
-
-* Developed the `fintrust_migration` Python package to organise migration classification, DMS, DataSync, S3 and supporting migration functionality.
-
-* Included DMS helpers for database migration workflows and health monitoring.
-
-* Included DataSync monitoring and throttling functionality for large-scale data transfer workflows.
-
-* Added S3 synchronisation helpers for migration-related data movement.
-
-* Added migration-related SQL views covering transaction, transfer, migration audit and wave-progress reporting.
-
-* Documented the rationale for selecting migration and data-transfer approaches in `architecture_narrative.md`.
+AWS services were not presented as deployed where deployment evidence was unavailable.
 
 **Key Outcome**
 
-* Developed a structured approach to selecting AWS migration strategies.
-
-* Applied DMS and DataSync concepts to production-inspired migration scenarios.
-
-* Developed Python tooling to support migration classification, monitoring and data transfer.
-
-* Considered transfer volume, network capacity, migration duration and architecture when evaluating migration costs.
-
-* Extended the FinTrust architecture from cloud application development into migration planning and automation.
-
-The Week 10 portfolio work was completed without presenting unverified AWS resources as deployed. AWS-dependent migration activities are represented through local Python implementations, architecture design and documented production approaches where live AWS access was not available.
+Extended the FinTrust portfolio with migration-focused Python utilities, data transfer concepts, SQL migration views and cost-aware data movement strategies.
 
 📁 **More details:** [`week-10`](./week-10/)
 
 ---
 
+### Week 11 – Well-Architected Framework, SQL & Python Engineering
+
+**AM Session – AWS**
+
+* AWS Well-Architected Framework
+* Six Well-Architected Framework pillars
+* Operational Excellence
+* Security
+* Reliability
+* Performance Efficiency
+* Cost Optimisation
+* Sustainability
+* AWS Well-Architected Tool
+* Highly available web applications
+* Amazon CloudFront dynamic content acceleration
+* AWS Trusted Advisor
+* AWS Cost Explorer
+* Multi-account governance
+* AWS Systems Manager
+* AWS Config
+
+**PM Session – Python & SQL**
+
+* SQL Window Functions
+* `OVER`, `PARTITION BY` and `ORDER BY`
+* `ROW_NUMBER()`, `RANK()` and `DENSE_RANK()`
+* `LAG()` and `LEAD()`
+* Running totals and transaction analysis
+* Common Table Expressions (CTEs)
+* Recursive CTEs
+* Multi-step anomaly detection
+* Python decorators
+* `functools.wraps`
+* Retry logic with exponential backoff
+* Python concurrency
+* `ThreadPoolExecutor`
+* `asyncio`
+* Concurrent I/O processing
+
+**FinTrust Well-Architected Architecture**
+
+* Mapped FinTrust scenarios to the six Well-Architected Framework pillars with justifications.
+* Applied Well-Architected principles to operational, security, reliability, performance, cost and sustainability scenarios.
+* Developed SQL window function queries for transaction ranking, running totals and month-over-month analysis.
+* Compared `ROW_NUMBER()` and `DENSE_RANK()` behaviour when transaction amounts are tied.
+* Developed a multi-step anomaly detection query using chained CTEs and month-over-month growth analysis.
+* Developed a reusable Python retry decorator using exponential backoff and `functools.wraps`.
+* Applied the retry decorator to a boto3 S3 API example without automatically executing the AWS call.
+* Implemented concurrent S3 metadata processing using `ThreadPoolExecutor`.
+* Created a benchmark comparing sequential and concurrent simulated S3 metadata processing.
+
+**Key Outcome**
+
+* Structured understanding of the six Well-Architected Framework pillars.
+* Applied Well-Architected principles to FinTrust scenarios.
+* Strengthened SQL skills using window functions and CTEs.
+* Applied SQL to transaction ranking and anomaly detection.
+* Developed reusable Python retry and concurrency patterns.
+* Improved understanding of selecting concurrency models for I/O-bound workloads.
+
+Week 11 portfolio work was completed without presenting unverified AWS resources as deployed. AWS-dependent examples are represented through documented architecture, local Python implementations, simulated operations and boto3 examples where live AWS access was not required.
+
+📁 **More details:** [`week-11`](./week-11/)
+
+---
+
 ## About This Portfolio
 
-This repository is maintained as a living portfolio throughout the Cloud to Solutions Accelerator programme.
+The FinTrust Cloud Portfolio represents a continuous progression through cloud architecture, software development, data engineering and AWS solution design.
 
-Each week introduces new AWS services, software engineering concepts and practical implementations that build towards a complete cloud-native banking solution.
+The portfolio begins with foundational cloud and SQL concepts and progressively introduces networking, security, databases, APIs, serverless architecture, event-driven systems, analytics, machine learning, cost management, migration, resilience and the AWS Well-Architected Framework.
 
-The repository is updated continuously as new topics are completed during the programme.
+The combination of AWS, Python and SQL demonstrates both cloud architecture knowledge and practical software development skills.
+
+The portfolio is designed to show not only the technologies studied, but also how those technologies can be applied to a realistic banking environment through the FinTrust case study.
+
+The project continues to evolve throughout the 16-week Cloud to Solutions Accelerator programme, with each completed week contributing additional technical depth and practical experience.
